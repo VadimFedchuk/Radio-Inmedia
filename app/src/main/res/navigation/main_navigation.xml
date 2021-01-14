@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/playerFragment">
+
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.inmedia.radio.fragments.player.PlayerFragment"
+        android:label="PlayerFragment" />
+    <fragment
+        android:id="@+id/chartsFragment"
+        android:name="com.inmedia.radio.fragments.charts.ChartsFragment"
+        android:label="fragment_charts"
+        tools:layout="@layout/fragment_charts" />
+    <fragment
+        android:id="@+id/orderSongFragment"
+        android:name="com.inmedia.radio.fragments.order_song.OrderSongFragment"
+        android:label="fragment_order_song"
+        tools:layout="@layout/fragment_order_song" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.inmedia.radio.fragments.more.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>

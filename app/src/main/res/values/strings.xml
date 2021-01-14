@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Radio Inmedia</string>
+    <string name="player">Плеер</string>
+    <string name="chart">Чарт</string>
+    <string name="order_song">Заказать трек</string>
+    <string name="more">Еще</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
